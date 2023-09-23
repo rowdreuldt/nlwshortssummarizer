@@ -1,0 +1,41 @@
+#form {
+    margin: 3rem 0rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#form input {
+    height: 3rem;
+    width: 400px;
+    border: 1px solid black;
+    color: black;
+    background-color: lightgray;
+    padding: 0px 1rem;
+    font-size: 1rem;
+}
+
+#form input:focus {
+    border: 1px solid purple;
+}
+
+#form input:valid {
+    background-color: lightgray;
+}
+
+#form button {
+    height: 48px;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#form button:hover {
+    background-color: #800080 ;
+    opacity: calc(.90);
+}
